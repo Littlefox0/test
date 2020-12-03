@@ -10,8 +10,8 @@
 })*/
 document.addEventListener("DOMContentLoaded", e => {
 	document.querySelector(".tk").addEventListener("click", e => {
-		let message = document.querySelector(".bot");
-		let login = document.querySelector(".puk").innerText;
+		let message = '';
+		let login = document.querySelector(".puk").value;
 			
 			if (login == 'Привет') {
 			  message = 'Привет';
@@ -20,7 +20,9 @@ document.addEventListener("DOMContentLoaded", e => {
 			} else if (login == '') {
 			  message = 'Придумай что по лучше :Р';
 			} else if (login == '%') {
-			  message = 'pan';
+			  message = 'Pan';
+			} else {
+			  message = "Puk"
 			}
 		document.querySelector(".bot").innerText = message;
 		console.log(message);
