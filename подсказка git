@@ -1,0 +1,13 @@
+ >git init (вводится только 1 раз)
+
+
+ >git add . добавить файл к коммиту (изменения)
+
+ git commit -m "взлом жопы" (целевые изменения, часть изменений ) 
+
+git push (в конце для завершения)
+
+ git remote add origin https://github.com/Littlefox0/test.git (подключаешься именно к этому серверу)
+ 
+  git config --global user.email "polina.redkoles@gmail.com"
+  git config --global user.name "Littlefox0"
